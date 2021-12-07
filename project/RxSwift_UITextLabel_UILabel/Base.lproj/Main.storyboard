@@ -41,6 +41,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wJU-8i-50r" secondAttribute="trailing" constant="40" id="wXX-qo-biP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="wJU-8i-50r" id="I8e-OE-pgX"/>
+                        <outlet property="textField" destination="0IW-VN-xE1" id="YqE-L5-sLj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
