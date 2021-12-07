@@ -31,6 +31,10 @@ extension ViewController: UITextFieldDelegate {
         var newText = currentText
         if string == "" {
             // 文字を削除する
+            let start = currentText.index(currentText.startIndex, offsetBy: range.lowerBound)
+            let end = currentText.index(currentText.startIndex, offsetBy: range.upperBound)
+            let removeRange = start..<end
+            newText.removeSubrange(removeRange)
         } else {
             // 文字を追加する
             newText = currentText + string
