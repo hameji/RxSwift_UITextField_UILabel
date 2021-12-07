@@ -1,12 +1,12 @@
 アルバイト活動用のポートフォリオ
 
-UITextFieldの入力内容を
+UITextFieldの入力内容を<br>
 UILabelにリアルタイムに反映する　サンプル
 
 ## Features
 
-Master branch - RxSwiftなしでの実装 
-useRxSwift - RxSwiftを用いた書き方 
+Master branch - RxSwiftなしでの実装<br>
+useRxSwift - RxSwiftを用いた書き方 <br>
 
 ## Requirements
 
