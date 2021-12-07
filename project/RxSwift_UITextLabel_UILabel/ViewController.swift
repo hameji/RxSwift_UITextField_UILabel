@@ -28,7 +28,14 @@ extension ViewController: UITextFieldDelegate {
             return true
         }
         print("input string:", string, ", at:", range)
-        label.text = currentText + string
+        var newText = currentText
+        if string == "" {
+            // 文字を削除する
+        } else {
+            // 文字を追加する
+            newText = currentText + string
+        }
+        label.text = newText
         return true
     }
     
