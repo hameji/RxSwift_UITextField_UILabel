@@ -27,6 +27,7 @@ extension ViewController: UITextFieldDelegate {
         guard let currentText = textField.text else {
             return true
         }
+        print("input string:", string, ", at:", range)
         label.text = currentText + string
         return true
     }
