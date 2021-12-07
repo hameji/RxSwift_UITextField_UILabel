@@ -27,4 +27,9 @@ extension ViewController: UITextFieldDelegate {
         label.text = textField.text
         return true
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
