@@ -24,7 +24,22 @@ class ViewController: UIViewController {
 
 extension ViewController: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        label.text = textField.text
+        guard let currentText = textField.text else {
+            return true
+        }
+        print("input string:", string, ", at:", range)
+        var newText = currentText
+        if string == "" {
+            // 文字を削除する
+            let start = currentText.index(currentText.startIndex, offsetBy: range.lowerBound)
+            let end = currentText.index(currentText.startIndex, offsetBy: range.upperBound)
+            let removeRange = start..<end
+            newText.removeSubrange(removeRange)
+        } else {
+            // 文字を追加する
+            newText = currentText + string
+        }
+        label.text = newText
         return true
     }
     
