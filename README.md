@@ -39,5 +39,5 @@ bundle exec pod install
 
 ## Author
 
-[hameji](https://github.com/hameji)`<BR>`
+[hameji](https://github.com/hameji)<br>
 twitter @hameji001
