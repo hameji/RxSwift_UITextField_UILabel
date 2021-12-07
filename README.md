@@ -6,7 +6,7 @@ UILabelにリアルタイムに反映する　サンプル
 ## Features
 
 Master branch - RxSwiftなしでの実装<br>
-useRxSwift - RxSwiftを用いた書き方 <br>
+feature/useRxSwift branch - RxSwiftを用いた書き方 <br>
 
 ## Requirements
 
