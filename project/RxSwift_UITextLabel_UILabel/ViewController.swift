@@ -27,7 +27,7 @@ extension ViewController: UITextFieldDelegate {
         guard let currentText = textField.text else {
             return true
         }
-        label.text = textField.text
+        label.text = currentText + string
         return true
     }
     
