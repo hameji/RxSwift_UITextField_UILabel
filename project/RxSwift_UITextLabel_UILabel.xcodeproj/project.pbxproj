@@ -13,9 +13,11 @@
 		63ADB9B4275F52DB00CA117B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ADB9B2275F52DB00CA117B /* Main.storyboard */; };
 		63ADB9B6275F52E100CA117B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ADB9B5275F52E100CA117B /* Assets.xcassets */; };
 		63ADB9B9275F52E100CA117B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ADB9B7275F52E100CA117B /* LaunchScreen.storyboard */; };
+		A9EF1573817DF6D969DAF90C /* Pods_RxSwift_UITextLabel_UILabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718E940C6232F13F222EEA7F /* Pods_RxSwift_UITextLabel_UILabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A9FEA23103AAEFC01F8440E /* Pods-RxSwift_UITextLabel_UILabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_UITextLabel_UILabel.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_UITextLabel_UILabel/Pods-RxSwift_UITextLabel_UILabel.debug.xcconfig"; sourceTree = "<group>"; };
 		63ADB9A9275F52DB00CA117B /* RxSwift_UITextLabel_UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_UITextLabel_UILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ADB9AC275F52DB00CA117B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63ADB9AE275F52DB00CA117B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		63ADB9B5275F52E100CA117B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63ADB9B8275F52E100CA117B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ADB9BA275F52E100CA117B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718E940C6232F13F222EEA7F /* Pods_RxSwift_UITextLabel_UILabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_UITextLabel_UILabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C0506C644D0E57764A434E /* Pods-RxSwift_UITextLabel_UILabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_UITextLabel_UILabel.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_UITextLabel_UILabel/Pods-RxSwift_UITextLabel_UILabel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EF1573817DF6D969DAF90C /* Pods_RxSwift_UITextLabel_UILabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				63ADB9AB275F52DB00CA117B /* RxSwift_UITextLabel_UILabel */,
 				63ADB9AA275F52DB00CA117B /* Products */,
+				E933FD920DA6CC9524ED425D /* Pods */,
+				76598C5BE46A0B9652F6CF69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = RxSwift_UITextLabel_UILabel;
 			sourceTree = "<group>";
 		};
+		76598C5BE46A0B9652F6CF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				718E940C6232F13F222EEA7F /* Pods_RxSwift_UITextLabel_UILabel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E933FD920DA6CC9524ED425D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FEA23103AAEFC01F8440E /* Pods-RxSwift_UITextLabel_UILabel.debug.xcconfig */,
+				87C0506C644D0E57764A434E /* Pods-RxSwift_UITextLabel_UILabel.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63ADB9BD275F52E100CA117B /* Build configuration list for PBXNativeTarget "RxSwift_UITextLabel_UILabel" */;
 			buildPhases = (
+				E79D54FFEBE54F4CFCF5F8B1 /* [CP] Check Pods Manifest.lock */,
 				63ADB9A5275F52DB00CA117B /* Sources */,
 				63ADB9A6275F52DB00CA117B /* Frameworks */,
 				63ADB9A7275F52DB00CA117B /* Resources */,
+				D2097118DFDFD19386922882 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2097118DFDFD19386922882 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift_UITextLabel_UILabel/Pods-RxSwift_UITextLabel_UILabel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift_UITextLabel_UILabel/Pods-RxSwift_UITextLabel_UILabel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift_UITextLabel_UILabel/Pods-RxSwift_UITextLabel_UILabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79D54FFEBE54F4CFCF5F8B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift_UITextLabel_UILabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63ADB9A5275F52DB00CA117B /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		63ADB9BE275F52E100CA117B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9FEA23103AAEFC01F8440E /* Pods-RxSwift_UITextLabel_UILabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		63ADB9BF275F52E100CA117B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C0506C644D0E57764A434E /* Pods-RxSwift_UITextLabel_UILabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
